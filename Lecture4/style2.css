@@ -1,0 +1,19 @@
+.box1{
+		width: 200px;
+		height: 200px;
+		background-color: orange;
+		color: white;
+		text-align: center;
+		float: left;
+}
+.box2{
+		width: 200px;
+		height: 200px;
+		background-color: blue;
+		color: white;
+		display: inline-block;
+		float: left;
+}
+p{
+	clear: both;
+}

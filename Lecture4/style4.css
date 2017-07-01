@@ -1,0 +1,47 @@
+@keyframes bounce{
+
+	0%{
+		border-radius: 0 0 0 0;
+		transform: rotate(0deg);
+
+	}
+	25%{
+		border-radius: 50% 0 0 0;
+		transform: rotate(90deg);
+		background-color: yellow;
+		transform: translateX(400px);
+	}
+	50%{
+		border-radius: 	50% 50% 0 0; 
+		transform: rotate(72deg);
+		background-color: green;
+
+	}
+	75%{
+		border-radius: 	50% 50% 50% 0;
+		transform: rotate(15deg);
+		background-color: blue;
+		transform: translateY(400px);
+	}
+	100%{
+		border-radius: 	50% 50% 50% 50%;
+		transform: rotate(270deg);
+		background-color: black;
+	}
+
+}
+.box{
+		background-color: red;
+		height: 100px;
+		width: 100px;
+		animation-name: bounce;
+		animation-duration: 3s;
+		animation-iteration-count: infinite;
+		position: relative;
+		/*top: 250px;
+		left: 50%;*/
+
+
+		/*animation-direction: reverse;*/
+
+}

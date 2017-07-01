@@ -1,0 +1,74 @@
+body{
+		font-family: 'Nunito', sans-serif;
+}
+#main{
+	 width:25vw;
+	 height:92vh;
+	 padding: 2vh;
+	 border:2px solid black;
+	 border-radius: 10px;
+	 box-shadow: 2px 2px 10px black;
+	 background-color: #373737;	 
+}
+#r0{
+		height: 15vh;
+		color: #EAEAEA;
+		font-size: 7vw;
+		margin-top: -2vh;
+		text-shadow: 4px 4px 10px black;
+		margin-bottom : 5vh;
+}
+#r1,#r2,#r3,#r4,#r5{
+		height: 15%;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(digital-7.ttf);
+}
+#screen{
+		width: 71%;
+		height: 120%;
+		display: inline-block;
+		font-size: 4vw;
+		font-family:myFirstFont;
+		color: #5C5C5C;	
+		border-radius: 10px;
+		vertical-align: text-bottom;
+		background-color:#CCDDCD ;
+		box-shadow: 4px 4px 10px black;
+}	
+#equal,#clear,#zero,#one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#multiply,#divide,#plus,#minus,#point{
+		width: 23%;
+		height: 100%;
+		display: inline-block;
+}
+button{
+		height: 90%;
+		width: 90%;
+		color: #353535;
+		font-size: 2.5vw;
+		border-radius: 10px;
+		background-color: #EAEAEA ;
+		border-color: black;
+		box-shadow: 4px 4px 10px black;
+}
+#b01{
+		background-color: #FFA845;
+		color: white;
+		height: 120%;
+}
+#screen{
+		float: left;
+		margin-left: 0.5vw;
+}
+#b01{
+		float: right;
+}
+button:hover{
+		cursor: pointer;
+		background-color: #f7f7f7;
+}
+#b01:hover{
+	cursor: pointer;
+	background-color: #FFB159;
+}

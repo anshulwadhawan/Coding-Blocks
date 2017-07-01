@@ -1,0 +1,124 @@
+body{
+		background-color: #2D69A4;
+}
+.main{
+		width: 90%;
+		margin-top: 40px;
+		padding-top: 1px;	
+		box-shadow:4px 4px 10px black; 
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		background-color: #F2F2F2;
+		border-radius: 10px;
+}
+#name{
+	 font-size: 5em;
+	 color: white;
+	 font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 text-shadow: 5px 5px 5px black;
+	 padding: 10px;
+}
+#contact{
+
+		color: white;
+		font-size: 1.2em;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 	text-shadow: 2px 2px 5px black;
+}
+
+
+h1{
+		/*color: #818689;*/
+		font-size: 3.5em;
+		color: black;
+		text-shadow: 2px 2px 2px black;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		background-color: gainsboro;
+}
+hr{
+		color: black;
+		background-color: black;
+}
+img{
+		margin-bottom: 10px;
+		border-radius: 50%;
+
+		box-shadow: 0px 2px 2px 2px black;
+}
+#image{
+		float: left;
+		margin-left: 10px;
+}
+#nsittext{
+
+		font-size: 2em;
+}
+h4{
+		margin:0;
+		width: 95%
+}
+#davimg{
+		float: left;
+		margin-left: 10px;
+}
+#davtext{
+
+		font-size: 2em;
+}
+#nsit a,#dav a{
+		text-decoration: none;
+		color: black;
+}
+ul a{
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		/*text-shadow: 2px 2px 5px black;*/
+}
+
+table{
+		box-shadow: 4px 4px 10px black;
+		text-align: center;
+		font-size: 25px;
+		border-collapse: collapse;
+}
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #2D69A4;
+    color: white;
+}
+ul{
+			text-align: center;
+		font-size: 1.9vw;
+		list-style-type:none;
+}
+.footer{
+		height:20px;	
+		background-color: #DADADA;
+		border-radius: 10px;
+}
+i{
+		/*color: black;*/
+}
+a:hover {
+		
+		text-shadow: 4px 4px 5px grey, 1px 1px 5px #2D69A4;
+		transition: .3s;
+}
+#nsit a:hover,#dav a:hover{
+		text-shadow: 4px 4px 5px grey, 1px 1px 5px #2D69A4;
+		transition: .3s;
+}
+.leftarea{
+		float: left;
+		margin-left:2%; 
+}
+.rightarea{
+		float: right;
+}
+footer{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 1.2vw;
+}

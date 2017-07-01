@@ -1,0 +1,240 @@
+#main{
+		width: 90%;
+		margin-top: 5vh;
+		margin-bottom: 11vh;
+		height: 84vh;
+		position: relative;
+		box-shadow:4px 4px 10px black; 
+		background-color: #F2F2F2;
+}
+body{
+		background-color: #2D69A4;
+}
+#colorbar
+{
+		height: 10px;
+}
+.a{
+	background-color: #DDFF51;
+	height:15px; 
+	width: 4.166%;
+	box-shadow: 2px 2px 10px black;
+	/*float: right;*/
+	display: inline-block;	
+}
+.b{
+	background-color: #24629F;
+	height:15px;
+	width:4.166%;
+	box-shadow: 2px 2px 10px black;
+	/*float: right;*/
+	display: inline-block;
+}
+.c{
+	background-color: #EB2929;
+	height:15px;
+	width: 4.166%;
+	box-shadow: 2px 2px 10px black;
+	/*float: right;*/
+	display: inline-block;
+}
+.d{
+	background-color: #4C8AC7;
+	height:15px;
+	width: 4.166%;
+	box-shadow: 2px 2px 10px black;
+	/*float: right;*/
+	display: inline-block;
+}
+
+#text{
+		height:10%;
+		clear: both;
+		background-color: #4C8AC7;
+		width: 30%;
+		text-shadow: 1px 1px 4px black;
+		line-height: 1.5;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		padding-top: 1vh;
+		padding-bottom: 0.1vh;
+		border-radius: 1.5vh;
+		color: white;
+		margin-top: 5vh;
+
+}
+#triangle{
+    width: 0;
+    height: 0;
+    border: solid 1vw;
+    border-color: #4C8AC7 transparent transparent transparent;
+
+}
+img{
+		margin-bottom: 2vh;
+		border-radius: 50%;
+		box-shadow: 0px 2px 2px 2px black;
+		height: 30vh;
+
+	
+}
+#buttonbar{
+		height: 3.5vw;
+}
+.fa.fa-facebook-square{
+		font-size: 3.5vw;
+		color: #3b5998;
+}
+.fa.fa-google-plus-square{
+		font-size: 3.5vw;
+		color: #dd4b39;
+}
+.fa.fa-linkedin-square{
+		font-size: 3.5vw;
+		color: #0077B5;
+}
+#name{
+	 font-size: 3.5vw;
+	 /*color: #818689;*/
+	 margin-top: 2vh;
+	 font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 /*text-shadow: 2px 2px 5px black;*/
+	 text-shadow: 2px 2px 2px black;
+	 padding: 2vh;
+}
+#aboutcontainer{
+		margin-top: 1vh;
+}
+#about{
+		padding-top: 1vh;
+		padding-bottom: 1.5vh;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		border-radius: 1vw;
+		/*background-color: #A63D3D;*/
+		background-color: #dd4b39;
+		font-weight: bold;
+		font-size: 1.8vw;
+		/*color: #E6DADA;*/
+		color: black;
+		box-shadow: 3px 3px 10px black;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#greybar{
+		height:3vh;	
+		background-color: #DADADA;
+		width: 100%;
+		/*margin-top: 5.5vh;*/
+		position: absolute;
+		bottom: 0;
+}
+#footer{	
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		/*color:#C5C5C5;*/
+		font-size: 1.2vw;
+		margin-top: -7vh;
+
+}
+a{
+		text-decoration: none;
+}
+a:hover{
+	text-shadow: 1px 1px 2px black;
+	transition: 0.2s;
+}
+#buttonbar a:hover{
+	font-size:1.1em;
+	transition: 0.2s;
+	text-shadow: 3px 3px 1px black;
+}
+#buttonbar{
+		height: 1.1em;
+}
+@media screen and (max-width: 415px)
+{
+		#text{	
+				width: 70%;
+				height: 10vh;
+				margin-top: 3vh;
+				font-size: 3.3vw;
+		}
+		#triangle{
+				  	width: 0;
+    				height: 0;
+    				border: solid 4vw;
+    				border-color: #4C8AC7 transparent transparent transparent;
+		}
+		.fa.fa-facebook-square,.fa.fa-google-plus-square,.fa.fa-linkedin-square{
+				font-size: 9.5vw;
+		}
+		#name{
+			font-size: 6vh;
+			margin-top: 0;
+			padding-top: 0;
+		}
+		#aboutcontainer{
+			margin-top: 0;
+		}
+		#about{
+				width: 20vw;
+				height: 6vh;
+				font-size: 4vw; 
+				font-weight: bold;
+		}
+		#footer{
+				font-size: 3vw;
+		}
+		#greybar{
+			height: 1.5vh;
+		}
+		#buttonbar{
+				height: 6vh;
+		}
+		
+
+}
+@media screen and (min-width: 415px) and (max-width: 700px)
+{
+		#text{	
+				width: 70%;
+				height: 15vh;
+				margin-top: 3vh;
+				font-size: 3.3vw;
+		}
+		#triangle{
+				  	width: 0;
+    				height: 0;
+    				border: solid 3vw;
+    				border-color: #4C8AC7 transparent transparent transparent;
+		}
+		.fa.fa-facebook-square,.fa.fa-google-plus-square,.fa.fa-linkedin-square{
+				font-size: 7vh;
+		}
+		#name{
+			font-size: 8vw;
+			margin-top: 2vh;
+			padding-top: 0;
+		}
+		#aboutcontainer{
+			margin-top: 0;
+		}
+		#about{
+				width: 20vw;
+				height: 6vh;
+				font-size: 3vw; 
+				font-weight: bold;
+		}
+		#footer{
+				font-size: 3vw;
+		}
+		#greybar{
+			height: 1.5vh;
+		}
+		img{
+				margin-bottom: 1vh;
+				margin-top: -2vh;
+		}#buttonbar{
+				height: 7vh;
+		}
+		
+
+}

@@ -1,0 +1,33 @@
+#box1{
+		background-color: red;
+		height: 90px;
+		width:100%;
+}
+#box2{
+		background-color: blue;
+		height: 90px;width:100%;
+}
+#box3{
+		background-color: black;
+		height: 90px;width:100%;
+}
+#box4{
+		background-color: green;
+		height: 90px;width:100%;
+}
+#box5{
+		background-color: yellow;
+		height: 90px;width:100%;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px)
+{
+	.parent1{
+			display: flex;
+
+	}
+	.parent2{
+			display: flex;
+
+	}
+}

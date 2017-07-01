@@ -1,0 +1,48 @@
+/*@media screen and (min-width: 300px) and (max-width: 600px) 
+{
+		p{
+				color: red;
+				font-size: 20px;
+		}
+}*/
+
+#navbar{
+		height: 50px;
+}
+#item1{
+		height: 33.33%;
+		margin:10px;
+		background-color: red;
+
+}
+#item2{
+		height: 33.33%;
+		margin:10px;
+		background-color: blue;
+
+}
+#item3{
+		height: 33.33%;
+		margin:10px;
+		background-color: green;
+
+}
+@media screen and (min-width: 300px) and (max-width: 600px)
+{
+		#item1,#item2{
+				color:white;
+				float: left;
+						
+		}
+		#item3{
+				clear: both;
+		}
+}
+@media screen and (min-width: 600px)
+{
+		#item1,#item2,#item3{
+				color: white;
+				float: left;
+						
+		}
+}

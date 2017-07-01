@@ -1,0 +1,28 @@
+#box1{
+		background-color: red;
+		height: 90px;
+}
+#box2{
+		background-color: blue;
+		height: 90px;
+}
+#box3{
+		background-color: black;
+		height: 90px;
+}
+#box4{
+		background-color: green;
+		height: 90px;
+}
+#box5{
+		background-color: yellow;
+		height: 90px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px)
+{
+	#box2,#box3,#box4,#box5{
+			width:50%;
+			float: left;	
+	}
+}

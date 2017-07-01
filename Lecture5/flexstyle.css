@@ -1,0 +1,41 @@
+.parent{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	/*flex-direction:row-reverse;*/
+	/*justify-content: flex-start; - starting point changes-*/
+}
+.box1,.box2,.box3,.box4,.box5,.box6
+{
+		height: 50px;
+		width: 50px;
+
+}
+.box1{
+		background-color: aqua;
+		width: 40%;
+		/*flex-grow: 2;
+		order: 1;*/
+}
+.box2{
+		background-color: bisque;
+		width: 60%;
+		/*order: 3;
+		flex-grow: 1;*/
+}	
+.box3{
+		background-color: blue;
+		/*order: 2;*/
+}
+.box4{
+		background-color: brown;
+		/*order: 5;*/
+}
+.box5{
+		background-color: cadetblue;
+		/*order: 4;*/
+}
+.box6{
+		background-color: coral;
+		/*order: 6;*/
+}

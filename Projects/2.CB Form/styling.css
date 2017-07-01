@@ -1,0 +1,89 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	background-color: #F05648;
+	/*font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+}
+#signup{
+		font-size: 25px;
+		letter-spacing: 2px;
+		font-weight: lighter;
+}
+.main{
+		border-radius: 10px;
+		box-shadow: 1px 1px 1px 10px #5C626E;
+		background-color: white;
+		width: 900px;
+
+}
+p{
+		font-size: 17px;
+}
+.entertext input{
+	font-family: 'Nunito', sans-serif;
+    background: #f5f5f5;
+    border: none;
+    width: 90%;
+    letter-spacing: 2px;
+    color: #5C626E;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-size: 12px;
+    border-radius: 0;
+}
+select{
+	font-family: 'Nunito', sans-serif;
+    background: #f5f5f5;
+    border: none;
+    width: 92.4%;
+    letter-spacing: 2px;
+    color: #5C626E;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    font-size: 12px;
+    margin-top: 10px;
+    border-radius: 0;		
+}
+#leftcourses{
+		float: left;
+		margin-top: 5px;
+		margin-left: 33px;
+		line-height: 175%;
+}
+#rightcourses{
+		float: left;
+		margin-top: 5px;
+		margin-left: 90px;
+		line-height: 175%;
+}
+#msg{
+
+	font-family: 'Nunito', sans-serif;
+    background: #f5f5f5;
+    border: none;
+    width: 90%;
+    letter-spacing: 2px;
+    color: #5C626E;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 200%;
+    border-radius: 0;
+}
+#submitbtn{
+	width: 92.4%;
+	background-color: #F05648;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 2px;
+	color: white;
+	height: 50px;	
+	font-size: 12px;
+	font-weight: bold;
+	border:none;
+
+}

@@ -1,0 +1,103 @@
+#navbar{
+		height: 40px;
+		width: 90%;
+		background-color: #F05648;
+		font-family: 'Nunito', sans-serif;
+}
+#home{
+		float: left;
+		width: 8%;
+		font-size: 1.7vw;
+}
+#main{
+		float: left;
+		width: 8%;
+		font-size: 1.7vw;
+}
+#about{
+		float: left;
+		width: 8%;
+		font-size: 1.7vw;
+}
+a{
+		text-decoration: none;
+		color: black;
+}
+
+#home a:hover{
+		text-shadow: 2px 2px 5px black;
+
+
+}
+.dd{
+		width: 90%;
+		height: 200px; 	
+}
+.homedd{
+		position: relative;
+		height: 100%;
+		width: 8%;
+		float: left;
+		
+}
+.homeddc1{
+		position: absolute;
+		width: 100%;
+		font-size: 1.7vw; 
+		z-index: -1;
+		height: 100%;
+
+}
+.homeddc2{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		background-color: white;
+		
+}
+.maindd{
+		position: relative;
+		height: 100%;
+		width: 8%;
+		float: left;
+
+}
+.mainddc1{
+		position: absolute;
+		width: 100%;
+		font-size: 1.7vw;
+		z-index: -1;
+		height: 100%;
+}
+.mainddc2{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		background-color: white;
+}
+.aboutdd{
+		position: relative;
+		height: 100%;
+		width: 8%;
+		float: left;
+}
+.aboutddc1{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		font-size: 1.7vw;
+		z-index: -1;
+}
+.aboutddc2{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 0;
+		background-color: white;
+}
+ul{
+		list-style-type: none;
+		margin-left: -15px;
+}

@@ -1,0 +1,127 @@
+body{
+		background-color: #2D69A4;
+}
+.main{
+		width: 90vw;
+		margin-top: 5vh;
+		margin-bottom: 10vh;
+		padding-top: 0.6vh;	
+		box-shadow:4px 4px 10px black; 
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		background-color: #F2F2F2;
+		border-radius: 1vh;
+}
+#name{
+	 font-size: 13vh;
+	 color: white;
+	 font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 text-shadow: 5px 5px 5px black;
+	 padding: 1vh;
+}
+#contact{
+
+		color: white;
+		font-size: 3.5vh;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	 	text-shadow: 2px 2px 5px black;
+}
+
+
+h1{
+		/*color: #818689;*/
+		font-size: 7.5vh;
+		color: black;
+		text-shadow: 2px 2px 2px black;
+		margin-top: 2.2vh;
+		margin-bottom: 2.2vh;
+		background-color: gainsboro;
+}
+hr{
+		color: black;
+		background-color: black;
+}
+img{
+		border-radius: 50%;
+		box-shadow: 0px 2px 2px 2px black;
+		height: 20vw;
+		width: 20vw;
+}
+#image{
+		float: left;
+		margin-left: 2vw;
+}
+#nsittext{
+		height: 45vh;
+		font-size: 2.2vw;
+}
+h4{
+		margin:0;
+		width: 95%;
+}
+#davimg{
+		float: left;
+		margin-left: 2vw;
+}
+#davtext{
+
+		font-size: 2.2vw;
+		height: 45vh;
+}
+#nsit a,#dav a{
+		text-decoration: none;
+		color: black;
+}
+ul a{
+		text-decoration: none;
+		color: black;
+		font-weight: bold;
+		/*text-shadow: 2px 2px 5px black;*/
+}
+
+table{
+		box-shadow: 4px 4px 10px black;
+		text-align: center;
+		font-size: 2vw;
+		border-collapse: collapse;
+}
+th, td {
+    border-bottom: 0.5vh solid #ddd;
+}
+th {
+    background-color: #2D69A4;
+    color: white;
+}
+ul{
+			text-align: center;
+		font-size: 1.9vw;
+		list-style-type:none;
+		margin-left: -2.8vw;
+}
+.footer{
+		height:3vh;	
+		background-color: #DADADA;
+		border-radius: 3vh;
+}
+i{
+		/*color: black;*/
+}
+a:hover {
+		
+		text-shadow: 4px 4px 5px grey, 1px 1px 5px #2D69A4;
+		transition: .3s;
+}
+#nsit a:hover,#dav a:hover{
+		text-shadow: 4px 4px 5px grey, 1px 1px 5px #2D69A4;
+		transition: .3s;
+}
+.leftarea{
+		float: left;
+		margin-left:2%; 
+}
+.rightarea{
+		float: right;
+}
+footer{
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+		font-size: 1.2vw;
+}
