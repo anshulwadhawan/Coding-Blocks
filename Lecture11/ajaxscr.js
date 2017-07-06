@@ -1,4 +1,4 @@
-$(function(){
+// $(function(){
 
 	var URL='http://loklak.org/api/search.json?timezoneOffset=-330&q=amitabh+bachchan';
 
@@ -9,7 +9,8 @@ $(function(){
 	 			// console.log(users[i]);
 	 			$("#output").append('<img src='+result.statuses[i].user.profile_image_url_https+'>');
 	 			// console.log(result.statuses[i].user.profile_image_url_https);
-	 	}	
+	 	}
+
         // $("#output").html(result);
     }});
 
