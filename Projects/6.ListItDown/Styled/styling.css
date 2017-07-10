@@ -110,7 +110,7 @@ input{
 #footer{
 		color:white;
 }
-.fa.fa-minus-circle:hover,.fa.fa-trash:hover,#done:hover{
+			.fa.fa-minus-circle:hover,.fa.fa-trash:hover,#done:hover{
 		animation-name:shake; 
 		animation-duration: 0.3s;
 		animation-iteration-count: infinite;

@@ -1,0 +1,216 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+}
+.bs-example:hover{
+        cursor: pointer;
+}
+
+#logobg{
+    background-color: #EC1D23;
+}
+#logo{
+    height:30vh;
+}
+.fa.fa-search{
+    font-size:5vh;
+    background-color: black;
+    margin-bottom: 4vh;
+    /*padding-bottom: 2vh;*/
+    /*margin-top: 2vh;*/
+}
+input{
+    margin-top: 5vh;
+    /*margin-bottom: 2vh;*/
+    height:7vh;
+    width:60vw;
+    font-size:5vh;
+    font-weight:bold;
+    /*border:none;*/
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 4px;
+    color: black;
+    /*border-bottom: 2px;*/
+    border-color: black;
+    outline: none;
+
+    /*color:transparent;*/
+
+}
+::-webkit-input-placeholder{
+    color: #000;
+}
+#searchbar{
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.4);
+}
+
+.carousel{
+    background: #2f4357;
+    background-color: #EC1D23;
+    width:100%;
+    /*height: 700px;*/
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+h3{
+    font-size:5vh;
+    padding-left: 46vw;
+}
+h5{
+        text-transform: uppercase;
+}
+div.scrollmenu {
+    background-color: #333;
+    background-color: #EC1D23;
+    overflow: auto;
+    font-size: 3vh;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+    background-color: white;
+    transition: 0.3s;
+    font-weight: bold;
+    color: black;
+}
+.scrollmenu img{
+        border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:210px;
+    width: 210px;
+    margin-bottom: 5px;
+    transition: border .2s linear;
+}
+
+.heading{
+        font-weight: bold;
+    font-size: 10vh;
+    margin-top: 10px;
+}
+#footer{
+    font-size:3vh;
+    color: white;
+    background-color:black ;
+}
+
+.scrollmenu::-webkit-scrollbar,.modal::-webkit-scrollbar {
+    width: 1em;
+}
+
+.scrollmenu::-webkit-scrollbar-track,.modal::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.scrollmenu::-webkit-scrollbar-thumb,.modal::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid black;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    outline: 1px solid black;
+}
+.modal-title{
+        font-size:10vh;
+}
+.close{
+        font-size: 5vh;
+}
+.modal-content{
+        text-align: center  ;
+        /*width: 200%;*/
+}
+.modal-body img{
+        max-height: 100%;
+        max-width: 100%;
+}
+.modal-body{
+    font-size:5vh;
+}
+.modal-header{
+        background-color: #EC1D23;
+        color: white;
+    width:100.1%;
+}
+ul.nav.nav-tabs{
+        background-color: #EC1D23;
+        color: white;
+}
+.modal-body ul li a{
+        color: white;
+}
+.modal-body ul li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 0;
+    width: 101%;
+}
+.nav .nav-tabs ul li{
+    background-color: white;
+    border-radius: 0;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+#home,#menu1,#menu2{
+        background-color: #EC1D23;
+    color: white;
+}
+.tab{
+        width: 33.333%;
+        border: none;
+}
+.nav-tabs>li.active{
+
+        color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav-tabs>li.active>a:hover{
+     border: none;
+     color: black;
+     font-weight: bold;
+     cursor: pointer;
+ }
+.modal-content{
+    width:55vw; !important;
+    margin-left:-9vw;
+}
+.btn-primary{
+    background-color: #EC1D23;
+    color: white;
+    font-size: 4vh;
+}
+.btn-primary:hover{
+        background-color: white;
+    color: black;
+    font-weight: bold;
+}
+img:hover{
+        cursor: pointer;
+}
