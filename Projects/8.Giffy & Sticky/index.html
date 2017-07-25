@@ -1,69 +1,27 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>GIFFY AND STICKY</title>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Giffy & Sticky</title>
+        <link type="text/css" rel="stylesheet" href="frontpagestyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    </head>
+    <body>
 
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="style.css" type="text/css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+         <div id="parent">
+             <div class="box" id="box1"></div>
+             <div id="giffy" align="center">
+                 <div class="heading" onclick="redirect(this)">&nbsp;giffy</div><div class="subline">A GIF SEARCH ENGINE</div>
+             </div>
+             <div class="separator"></div>
+             <div class="box" id="box2"></div>
+             <div id="sticky" align="center">
+                 <div class="heading" onclick="redirect(this)">&nbsp;sticky</div><div class="subline">A STICKER SEARCH ENGINE</div>
+             </div>
+         </div>
 
-
-	</head>
-	<body>
-		
-		
-		<div class='logobg'align="center">
-			giffy<br>
-		</div>
-
-		<div class="searchbar">
-			<div class="ipencap" align="center">
-					<input type="text" placeholder=" WHAT IN GIFs ?" class="ip1" onkeydown = "if (event.keyCode == 13)
-                        $('.go1').click()">
-					<input type="text" placeholder=" HOW MANY GIFs ?" class="ip2" onkeydown = "if (event.keyCode == 13)
-                        $('.go1').click()">
-			</div>
-			<br>
-			<div class="goforit">
-				<i onclick='search(this)' class="fa fa-search btn btn-primary go1 gifs" aria-hidden="true" data-toggle="modal" data-target="#exampleModalLong"></i>
-			</div>
-			<br>
-			<button onclick="surprise(this)" class="gifs" >SURPRISE ME</button><button class="gifs" onclick="trending(this)" id="btn2gifs">SEE WHAT'S TRENDING</button>
-		</div>
-
-		<div class="op1"><br><br><br><br><br></div>
-
-		<div id="separator"></div>
-
-		<div class='logobg'align="center">
-			sticky<br>
-		</div>
-
-		<div class="searchbar">
-			<div class="ipencap" align="center">
-				<input type="text" placeholder=" WHAT IN STICKERS ?" class="ip3" onkeydown = "if (event.keyCode == 13)
-                        $('.go2').click()">
-				<input type="text" placeholder=" HOW MANY STICKERS ? " class="ip4" onkeydown = "if (event.keyCode == 13)
-                        $('.go2').click()">
-			</div>
-			<br>
-			<div class="goforit">
-				<i onclick="search(this)" class="fa fa-search btn btn-primary go2 stickers" aria-hidden="true" data-toggle="modal" data-target="#exampleModalLong"></i>
-			</div>
-			<br>
-			<button onclick="surprise(this)" class="stickers">SURPRISE ME</button><button class="stickers" onclick="trending(this)" id="btn2stickers">SEE WHAT'S TRENDING</button>
-		</div>
-
-		<div class="op2"><br><br><br><br><br><br><br><br><br></div>
-
-		<div align="center" class="footer">
-			<i class="fa fa-copyright" aria-hidden="true"></i> &nbsp;Designed by Anshul Wadhawan
-		</div>
-
-		<script type="text/javascript" src="jqscript.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="ajaxscr.js"></script>
-	</body>
+         <script src="jqscript.js"></script>
+         <script src="frontpagescr.js"></script>
+    </body>
 </html>

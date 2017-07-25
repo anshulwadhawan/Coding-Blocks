@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Favourites</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    <body>
+
+    <ul class="nav nav-tabs">
+        <li><a data-toggle="tab" href="#like" name="like" onclick="fnc(this)"><img src="like.gif"></a></li>
+        <li><a data-toggle="tab" name="love" href="#love" onclick="fnc(this)"><img src="love.gif"></a></li>
+        <li><a data-toggle="tab" name="haha" href="#haha" onclick="fnc(this)"><img src="haha.gif"></a></li>
+        <li><a data-toggle="tab" name="wow" href="#wow" onclick="fnc(this)"><img src="wow.gif"></a></li>
+        <li><a data-toggle="tab" name="sad" href="#sad" onclick="fnc(this)"><img src="sad.gif"></a></li>
+        <li><a data-toggle="tab" name="angry" href="#angry" onclick="fnc(this)"><img src="angry.gif"></a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="like" class="tab-pane fade in active" align="center">
+        </div>
+        <div id="love" class="tab-pane fade" align="center">
+        </div>
+        <div id="haha" class="tab-pane fade" align="center">
+        </div>
+        <div id="wow" class="tab-pane fade" align="center">
+        </div>
+        <div id="sad" class="tab-pane fade" align="center">
+        </div>
+        <div id="angry" class="tab-pane fade" align="center">
+        </div>
+    </div>
+
+    <script src="jqscript.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+</html>

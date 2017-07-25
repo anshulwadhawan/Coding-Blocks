@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EC1D23;
+}
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+.box{
+    width: 11%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EC1D23;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.separator{
+    background-color: #EC1D23;
+    height: 100%;
+    width: 10%;
+}
+#giffy{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+    height: 100%;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size:20vh;
+    padding-top: 10%;
+    background-color: #EC1D23;
+}
+#sticky{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 34%;
+    height: 100%;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size:20vh;
+    padding-top: 10%;
+    background-color: #EC1D23;
+}
+#giffy:hover,#sticky:hover{
+    color: #000;
+    cursor: pointer;
+    transition: 1.2s;
+}
+/*#giffy:hover ~ #sticky{*/
+    /*background-color: black;*/
+    /*color: black;*/
+    /*transition: 1.2s;*/
+/*}*/
+/*#sticky:hover + #giffy{*/
+    /*background-color: black;*/
+    /*color: black;*/
+    /*transition: 1.2s;*/
+/*}*/
+.heading{
+    display: flex;
+    flex-wrap: wrap;
+}
+.subline{
+    display: flex;
+    width: 100%;
+    margin-top: -35%;
+    flex-wrap: wrap;
+    font-size:4vh;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+}

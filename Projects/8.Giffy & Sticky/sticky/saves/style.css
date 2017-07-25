@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EC1D23;
+}
+li{
+    width:16.6666666666666%;
+    background-color: black;
+}
+.nav-tabs img{
+    height: 10vh;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 35%;
+}
+ul.nav.nav-tabs{
+    width: 100%;
+}
+.tab-content{
+    background-color: #EC1D23;
+}
+video{
+    height: 28vw;
+    background-color: black;
+    width: 28vw;
+    margin:20px;
+    -webkit-transition: all 1s;
+    z-index:0;
+    padding:10px;
+}
+video:hover{
+    box-shadow: 0 0 100px black;
+    border-radius: 50%;
+    transition: .5s;
+}
+#like,#love,#haha,#sad,#angry,#wow{
+    font-size:5vh;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: bold;
+}

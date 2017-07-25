@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>STICKY</title>
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class='logobg'align="center">
+			sticky<br><div class="subline">A STICKER SEARCH ENGINE</div>
+		</div>
+
+		<div class="searchbar">
+			<div class="ipencap" align="center">
+				<input type="text" placeholder=" WHAT IN STICKERS ?" class="ip3" onkeydown = "if (event.keyCode == 13)
+                        $('.go2').click()">
+				<input type="text" placeholder=" HOW MANY STICKERS ? " class="ip4" onkeydown = "if (event.keyCode == 13)
+                        $('.go2').click()">
+			</div>
+			<br>
+			<div class="goforit">
+				<i onclick="search(this)" class="fa fa-search btn btn-primary go2 stickers" aria-hidden="true" data-toggle="modal" data-target="#exampleModalLong"></i>
+			</div>
+			<br>
+			<button onclick="surprise(this)" class="stickers">SURPRISE ME</button><button class="stickers" onclick="trending(this)" id="btn2stickers">SEE WHAT'S TRENDING</button>
+			<button class="gifs" id="btn3stickers" onclick="location.href='saves/saves.html';" >SEE MY REACTIONS</button>
+		</div>
+
+		<div class="op2"><br><br><br><br><br><br><br><br><br></div>
+
+		<div align="center" class="footer">
+			<i class="fa fa-copyright" aria-hidden="true"></i> &nbsp;Designed by Anshul Wadhawan
+		</div>
+
+		<script type="text/javascript" src="jqscript.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="ajaxscr.js"></script>
+	</body>
+</html>
